@@ -1,9 +1,9 @@
-﻿Log file open, 10/22/16 16:19:49
+﻿Log file open, 10/22/16 17:53:15
 LogInit:Display: Running engine for game: MidtermStarter
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1539187707) SRandInit(-1539187706).
+LogInit:Display: RandInit(-1868696015) SRandInit(-1868696015).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.147615
+LogStats: Stats thread started at 0.142006
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -129,128 +129,124 @@ LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.13
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.22-20.19.50:298][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.22-20.19.50:298][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.22-20.19.50:321][  0]LogInit: Computer: DEREKMALONE-PC
-[2016.10.22-20.19.50:321][  0]LogInit: User: DerekMalone
-[2016.10.22-20.19.50:321][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.10.22-20.19.50:321][  0]LogInit: High frequency timer resolution =2.241011 MHz
-[2016.10.22-20.19.50:322][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.10.22-20.19.50:322][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.22-20.19.50:322][  0]LogMemory: Process Physical Memory: 258.95 MB used, 258.95 MB peak
-[2016.10.22-20.19.50:322][  0]LogMemory: Process Virtual Memory: 260.25 MB used, 260.25 MB peak
-[2016.10.22-20.19.50:322][  0]LogMemory: Physical Memory: 6576.27 MB used, 16337.79 MB total
-[2016.10.22-20.19.50:322][  0]LogMemory: Virtual Memory: 660.19 MB used, 134217728.00 MB total
-[2016.10.22-20.19.50:397][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.10.22-20.19.52:095][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.22-20.19.52:158][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
-[2016.10.22-20.19.52:158][  0]LogD3D11RHI:       2017/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.10.22-20.19.52:163][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.22-20.19.52:164][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.22-20.19.52:164][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.22-20.19.52:189][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.22-20.19.52:189][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
-[2016.10.22-20.19.52:189][  0]LogWindows: EnumDisplayDevices:
-[2016.10.22-20.19.52:190][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660M' (P:1 D:1)
-[2016.10.22-20.19.52:192][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660M' (P:0 D:1)
-[2016.10.22-20.19.52:193][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660M' (P:0 D:0)
-[2016.10.22-20.19.52:195][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660M' (P:0 D:0)
-[2016.10.22-20.19.52:196][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.10.22-20.19.52:196][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
-[2016.10.22-20.19.52:196][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
-[2016.10.22-20.19.52:196][  0]LogD3D11RHI:      Driver Date: 9-16-2016
-[2016.10.22-20.19.52:196][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.22-20.19.52:235][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.22-20.19.52:253][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.10.22-20.19.52:254][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Intermediate/Shaders/WorkingDirectory/24464/).
-[2016.10.22-20.19.52:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DEREKM~1/AppData/Local/Temp/UnrealShaderWorkingDir/A9C5CEDD475A8BD6909A45A5A56DB77A/'.
-[2016.10.22-20.19.52:254][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.22-20.19.55:151][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.22-20.19.55:182][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.22-20.19.55:210][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.22-20.19.55:242][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.22-20.19.55:267][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.22-20.19.55:293][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.22-20.19.55:318][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.22-20.19.55:340][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.22-20.19.55:364][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.22-20.19.55:386][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.22-20.19.55:415][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.22-20.19.55:458][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.22-20.19.55:458][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.22-20.19.55:461][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.22-20.19.55:504][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.22-20.19.55:527][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.22-20.19.55:549][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.10.22-20.19.55:570][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.22-20.19.55:592][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.22-20.19.55:614][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.22-20.19.55:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.22-20.19.55:884][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.22-20.19.56:060][  0]LogDerivedDataCache: Loaded boot cache 0.18s 62MB C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.22-20.19.56:060][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.10.22-20.19.56:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.22-20.19.56:060][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.22-20.19.56:061][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.22-20.19.56:061][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.22-20.19.56:112][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.22-20.19.56:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Derek Malone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.22-20.19.56:808][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.22-20.19.56:822][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.22-20.19.57:127][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.22-20.19.57:127][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.22-20.19.57:127][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.22-20.19.57:358][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.10.22-20.19.58:148][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: midtermstarter, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 4029104964
-[2016.10.22-20.19.58:220][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
-[2016.10.22-20.19.58:297][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.067906 seconds
-[2016.10.22-20.19.58:311][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2016.10.22-20.19.58:311][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
-[2016.10.22-20.19.58:311][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.22-20.19.58:330][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.22-20.19.58:963][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.22-20.19.58:963][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.22-20.20.00:797][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.10.22-20.20.00:833][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.10.22-20.20.00:879][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.22-20.20.01:509][  0]SourceControl: Info Source control is disabled
-[2016.10.22-20.20.01:512][  0]SourceControl: Info Source control is disabled
-[2016.10.22-20.20.01:546][  0]SourceControl: Info Source control is disabled
-[2016.10.22-20.20.01:578][  0]SourceControl: Info Source control is disabled
-[2016.10.22-20.20.02:534][  0]LogEngine: Initializing Engine...
-[2016.10.22-20.20.02:564][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2016.10.22-20.20.02:958][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.10.22-20.20.03:005][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.10.22-20.20.03:039][  0]LogInit: FAudioDevice initialized.
-[2016.10.22-20.20.03:122][  0]LogDerivedDataCache: Saved boot cache 0.08s 62MB C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.22-20.20.03:137][  0]LogInit: Texture streaming: Enabled
-[2016.10.22-20.20.03:211][  0]LogInit: Transaction tracking system initialized
-[2016.10.22-20.20.03:283][  0]BlueprintLog: New page: Editor Load
-[2016.10.22-20.20.03:507][  0]LocalizationService: Info Localization service is disabled
-[2016.10.22-20.20.03:716][  0]LogConsoleResponse:Display: 
-[2016.10.22-20.20.04:030][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.10.22-20.20.04:030][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.22-20.20.04:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/' took 0.03s
-[2016.10.22-20.20.04:564][  0]SourceControl: Info Source control is disabled
-[2016.10.22-20.20.04:564][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/ProceduralTower/StreamingLevels/TowerBase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.22-20.20.04:662][  0]LightingResults: New page: Lighting Build
-[2016.10.22-20.20.04:669][  0]MapCheck: New page: Map Check
-[2016.10.22-20.20.04:669][  0]LightingResults: New page: Lighting Build
-[2016.10.22-20.20.07:356][  0]LogAIModule: Creating AISystem for world TowerBase
-[2016.10.22-20.20.07:664][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2016.10.22-20.20.07:667][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.22-20.20.07:825][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.283ms to complete.
-[2016.10.22-20.20.07:825][  0]LogFileHelpers: Loading map 'TowerBase' took 3.262
-[2016.10.22-20.20.08:155][  0]LogCollectionManager: Loaded 0 collections in 0.005763 seconds
-[2016.10.22-20.20.08:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Saved/Collections/' took 0.01s
-[2016.10.22-20.20.08:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/Developers/DerekMalone/Collections/' took 0.01s
-[2016.10.22-20.20.08:220][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/Collections/' took 0.01s
-[2016.10.22-20.20.08:220][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
-[2016.10.22-20.20.08:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0257 seconds. Added 2156 classes and 421 folders.
-[2016.10.22-20.20.08:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.22-20.20.08:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.22-21.53.15:692][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.22-21.53.15:692][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.22-21.53.15:738][  0]LogInit: Computer: DEREKMALONE-PC
+[2016.10.22-21.53.15:738][  0]LogInit: User: DerekMalone
+[2016.10.22-21.53.15:738][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.22-21.53.15:738][  0]LogInit: High frequency timer resolution =2.241011 MHz
+[2016.10.22-21.53.15:739][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.10.22-21.53.15:739][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.22-21.53.15:739][  0]LogMemory: Process Physical Memory: 259.01 MB used, 259.01 MB peak
+[2016.10.22-21.53.15:739][  0]LogMemory: Process Virtual Memory: 260.35 MB used, 260.35 MB peak
+[2016.10.22-21.53.15:739][  0]LogMemory: Physical Memory: 5800.56 MB used, 16337.79 MB total
+[2016.10.22-21.53.15:739][  0]LogMemory: Virtual Memory: 660.19 MB used, 134217728.00 MB total
+[2016.10.22-21.53.15:808][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.22-21.53.17:375][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.22-21.53.17:429][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2016.10.22-21.53.17:429][  0]LogD3D11RHI:       2017/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.22-21.53.17:433][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.22-21.53.17:433][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.22-21.53.17:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.22-21.53.17:446][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.22-21.53.17:446][  0]LogD3D11RHI:     GPU DeviceId: 0xfd4 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.22-21.53.17:446][  0]LogWindows: EnumDisplayDevices:
+[2016.10.22-21.53.17:447][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660M' (P:1 D:1)
+[2016.10.22-21.53.17:448][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660M' (P:0 D:1)
+[2016.10.22-21.53.17:449][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660M' (P:0 D:0)
+[2016.10.22-21.53.17:450][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660M' (P:0 D:0)
+[2016.10.22-21.53.17:450][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.22-21.53.17:450][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660M
+[2016.10.22-21.53.17:450][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2016.10.22-21.53.17:450][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.10.22-21.53.17:450][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.22-21.53.17:478][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.22-21.53.17:495][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.22-21.53.17:496][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Intermediate/Shaders/WorkingDirectory/7644/).
+[2016.10.22-21.53.17:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DEREKM~1/AppData/Local/Temp/UnrealShaderWorkingDir/E19433544CC277EB186990AA15C5E162/'.
+[2016.10.22-21.53.17:497][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.22-21.53.20:545][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.22-21.53.20:578][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.22-21.53.20:618][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.22-21.53.20:653][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.22-21.53.20:680][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.22-21.53.20:704][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.22-21.53.20:726][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.22-21.53.20:753][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.22-21.53.20:783][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.22-21.53.20:814][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.22-21.53.20:846][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.22-21.53.20:893][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.22-21.53.20:893][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.22-21.53.20:898][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.22-21.53.20:951][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.22-21.53.20:973][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.22-21.53.20:999][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.22-21.53.21:024][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.22-21.53.21:050][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.22-21.53.21:079][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.22-21.53.21:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.22-21.53.21:325][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.22-21.53.21:471][  0]LogDerivedDataCache: Loaded boot cache 0.15s 62MB C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.22-21.53.21:471][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.22-21.53.21:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.22-21.53.21:471][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.22-21.53.21:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.22-21.53.21:472][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.22-21.53.21:522][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.22-21.53.21:536][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Derek Malone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.22-21.53.22:224][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.22-21.53.22:232][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.22-21.53.22:531][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.22-21.53.22:531][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.22-21.53.22:531][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.22-21.53.22:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.22-21.53.23:523][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: midtermstarter, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 4029104964
+[2016.10.22-21.53.23:591][  0]LogAssetRegistry: FAssetRegistry took 0.0232 seconds to start up
+[2016.10.22-21.53.23:674][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.073910 seconds
+[2016.10.22-21.53.23:688][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.22-21.53.23:688][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.22-21.53.23:688][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.22-21.53.23:707][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.22-21.53.24:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.22-21.53.24:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.22-21.53.26:201][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.22-21.53.26:234][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.22-21.53.26:275][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.22-21.53.26:894][  0]SourceControl: Info Source control is disabled
+[2016.10.22-21.53.27:887][  0]LogEngine: Initializing Engine...
+[2016.10.22-21.53.27:918][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.10.22-21.53.28:318][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.22-21.53.28:363][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.22-21.53.28:400][  0]LogInit: FAudioDevice initialized.
+[2016.10.22-21.53.28:469][  0]LogDerivedDataCache: Saved boot cache 0.07s 62MB C:/Users/Derek Malone/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.22-21.53.28:483][  0]LogInit: Texture streaming: Enabled
+[2016.10.22-21.53.28:552][  0]LogInit: Transaction tracking system initialized
+[2016.10.22-21.53.28:623][  0]BlueprintLog: New page: Editor Load
+[2016.10.22-21.53.28:863][  0]LocalizationService: Info Localization service is disabled
+[2016.10.22-21.53.29:093][  0]LogConsoleResponse:Display: 
+[2016.10.22-21.53.29:414][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.22-21.53.29:414][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.22-21.53.29:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/' took 0.03s
+[2016.10.22-21.53.29:919][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/ProceduralTower/StreamingLevels/TowerBase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.22-21.53.29:920][  0]LightingResults: New page: Lighting Build
+[2016.10.22-21.53.29:927][  0]MapCheck: New page: Map Check
+[2016.10.22-21.53.29:927][  0]LightingResults: New page: Lighting Build
+[2016.10.22-21.53.31:404][  0]LogAIModule: Creating AISystem for world TowerBase
+[2016.10.22-21.53.31:704][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.22-21.53.31:706][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.22-21.53.31:855][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 148.41ms to complete.
+[2016.10.22-21.53.31:855][  0]LogFileHelpers: Loading map 'TowerBase' took 1.936
+[2016.10.22-21.53.32:195][  0]LogCollectionManager: Loaded 0 collections in 0.006386 seconds
+[2016.10.22-21.53.32:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Saved/Collections/' took 0.01s
+[2016.10.22-21.53.32:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/Developers/DerekMalone/Collections/' took 0.01s
+[2016.10.22-21.53.32:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek Malone/Documents/GitHub/DiscoLevel/MidtermStarter/Content/Collections/' took 0.01s
+[2016.10.22-21.53.32:259][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.10.22-21.53.32:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0298 seconds. Added 2156 classes and 421 folders.
+[2016.10.22-21.53.32:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.22-21.53.32:300][  0]LogStats: U
